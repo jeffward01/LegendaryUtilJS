@@ -1,6 +1,8 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/jeffward01/LegendaryUtilJS/badge.svg?branch=master)](https://coveralls.io/github/jeffward01/LegendaryUtilJS?branch=master)
 
+[![Build Status](https://travis-ci.org/jeffward01/LegendaryUtilJS.svg?branch=master)](https://travis-ci.org/jeffward01/LegendaryUtilJS)
+
 
 Legend-Util
 =========
