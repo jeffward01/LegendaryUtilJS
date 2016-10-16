@@ -1,0 +1,28 @@
+{
+  "name": "legend-util",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --reporter spec; mocha --reporter nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffward01/LegendaryUtilJS.git"
+  },
+  "keywords": [
+    "binary",
+    "search"
+  ],
+  "author": "Jeff Ward <jeff@jeffwarddevelopment.com> (http://www.jeffwarddevelopment.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffward01/LegendaryUtilJS/issues"
+  },
+  "homepage": "https://github.com/jeffward01/LegendaryUtilJS#readme"
+}

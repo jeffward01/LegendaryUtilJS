@@ -1,34 +1,34 @@
 
-function recursionReverse(string) {  //Invalid JS during test?
-    return (string === "") ? "" : recursionReverse(string.subStr(1))
-        .charAt(0);
+function reverse(s) {
+  return (s === '') ? '' : reverse(s.substr(1)) + s.charAt(0);
 }
 
-function regularReverse(string) {  //refactoring needed
-    var len = string.length;
-    var o = ""
-    for (var i = len; i >= 0; i--) {
-        o = +string[i];
-    }
-    return o;
+function reverse(s) { //works
+  var o = '';
+  for (var i = s.length - 1; i >= 0; i--){
+    o += s[i];
+  }
+  return o;
 }
 
-function loopReverse(string) { //return null?
-    var len = string.length;
-    var o = "";
-
-    while (len >= 0) {
-        o = string.substr(len - 1, len);
-        len--;
-    }
-    return o;
+function reverse(s) {  //works
+  var i = s.length,
+      o = '';
+  while (i > 0) {
+    o += s.substring(i - 1, i);
+    i--;
+  }
+  return o;
 }
 
-function reverseSlowAndEasy(string) {
+function reverseSlowAndEasy(string) { //works
     return string.split("").reverse().join("");
 }
 
-
+function reverse(s) { //Works
+  for (var i = s.length - 1, o = ''; i >= 0; o += s[i--]) { }
+  return o;
+}
 
 //runtime completity O(n+m)
 function findDuplicates(arr1, arr2) {
