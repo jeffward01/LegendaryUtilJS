@@ -7,9 +7,13 @@
     "test": "test"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "coveralls": "^2.11.14",
+    "istanbul": "^0.4.5"
+  },
   "scripts": {
-    "test": "mocha --reporter spec; mocha --reporter nyan"
+    "test": "mocha --reporter spec; mocha --reporter nyan",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
   },
   "repository": {
     "type": "git",

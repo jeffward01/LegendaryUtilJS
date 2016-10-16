@@ -1,7 +1,11 @@
-Number Formatter
+
+[![Coverage Status](https://coveralls.io/repos/github/jeffward01/LegendaryUtilJS/badge.svg?branch=master)](https://coveralls.io/github/jeffward01/LegendaryUtilJS?branch=master)
+
+
+Legend-Util
 =========
 
-A small library that adds commas to numbers
+A Legendary Utility with high performance everyday functions
 
 ## Installation
 
