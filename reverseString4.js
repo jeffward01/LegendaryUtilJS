@@ -1,10 +1,10 @@
 
-function recursionReverse(string) {
+function recursionReverse(string) {  //Invalid JS during test?
     return (string === "") ? "" : recursionReverse(string.subStr(1))
         .charAt(0);
 }
 
-function regularReverse(string) {
+function regularReverse(string) {  //refactoring needed
     var len = string.length;
     var o = ""
     for (var i = len; i >= 0; i--) {
@@ -13,12 +13,13 @@ function regularReverse(string) {
     return o;
 }
 
-function loopReverse(string) {
+function loopReverse(string) { //return null?
     var len = string.length;
     var o = "";
 
     while (len >= 0) {
         o = string.substr(len - 1, len);
+        len--;
     }
     return o;
 }
